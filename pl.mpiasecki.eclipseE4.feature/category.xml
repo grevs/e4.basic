@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/pl.mpiasecki.eclipseE4.feature_1.0.0.qualifier.jar" id="pl.mpiasecki.eclipseE4.feature" version="1.0.0.qualifier">
+      <category name="E4category"/>
+   </feature>
+   <category-def name="E4category" label="E4category"/>
+</site>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Contextfunction
+Bundle-SymbolicName: pl.mpiasecki.eclipseE4.contextfunction
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.e4.core.contexts,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.ui.model.workbench
+Export-Package: pl.mpiasecki.eclipseE4.contextfunction
+Service-Component: OSGI-INF/service.xml,
+ OSGI-INF/service2.xml

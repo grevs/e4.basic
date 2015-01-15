@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_RxmgoJsjEeS4vusb0GATEQ" elementId="eclipseE4test.application" bindingContexts="_RxmgqZsjEeS4vusb0GATEQ">
+  <tags>shellMaximized</tags>
+  <tags>clearPersistedState</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_RxmgoZsjEeS4vusb0GATEQ" elementId="trimmedWindowMain" label="pl.mpiasecki.eclipseE4" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_RxnHwJsjEeS4vusb0GATEQ" elementId="perspectiveStackMain">
+      <children xsi:type="advanced:Perspective" xmi:id="_RxnHwZsjEeS4vusb0GATEQ" elementId="perspectiveMain">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_RxnHwpsjEeS4vusb0GATEQ" elementId="PartStashContainerMain">
+          <children xsi:type="basic:PartStack" xmi:id="_RxnHw5sjEeS4vusb0GATEQ" elementId="partStackMain">
+            <children xsi:type="basic:Part" xmi:id="_RxnHxJsjEeS4vusb0GATEQ" elementId="samplePart" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.parts.SamplePart" label="Sample Part"/>
+            <children xsi:type="basic:Part" xmi:id="_vSH34JsmEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipsee4.part.browserPart" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.parts.BrowserPart" label="Browser Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_RxnHuZsjEeS4vusb0GATEQ" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_RxnHupsjEeS4vusb0GATEQ" elementId="menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RxnHu5sjEeS4vusb0GATEQ" elementId="handledMenuOpen" label="Open" iconURI="platform:/plugin/pl.mpiasecki.eclipseE4/icons/sample.png" command="_RxnHsJsjEeS4vusb0GATEQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RxnHvJsjEeS4vusb0GATEQ" elementId="handledMenuSave" label="Save" iconURI="platform:/plugin/pl.mpiasecki.eclipseE4/icons/save_edit.png" command="_RxnHs5sjEeS4vusb0GATEQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RxnHvZsjEeS4vusb0GATEQ" elementId="handledMenuQuit" label="Quit" command="_RxmgrJsjEeS4vusb0GATEQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_RxnHvpsjEeS4vusb0GATEQ" elementId="menu.help" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RxnHv5sjEeS4vusb0GATEQ" elementId="handledMenuAbout" label="About" command="_RxnHtpsjEeS4vusb0GATEQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_d7HE8Jt3EeSfZrIB4K_EpQ" elementId="pl.mpiasecki.eclipsee4.handledmenuitem.swtbot" label="SWTBot" command="_jLnKsJt2EeSfZrIB4K_EpQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_RxnHxZsjEeS4vusb0GATEQ" elementId="windowTrim">
+      <children xsi:type="menu:ToolBar" xmi:id="_RxnHxpsjEeS4vusb0GATEQ" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RxnHx5sjEeS4vusb0GATEQ" elementId="handleMenuItem1" iconURI="platform:/plugin/pl.mpiasecki.eclipseE4/icons/sample.png" command="_RxnHsJsjEeS4vusb0GATEQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RxnHyJsjEeS4vusb0GATEQ" elementId="handleMenuItem2" iconURI="platform:/plugin/pl.mpiasecki.eclipseE4/icons/save_edit.png" command="_RxnHs5sjEeS4vusb0GATEQ"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_RxmgrZsjEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipseE4.handler.quitCommand" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.handlers.QuitHandler" command="_RxmgrJsjEeS4vusb0GATEQ"/>
+  <handlers xmi:id="_RxnHsZsjEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipseE4.handler.openCommand" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.handlers.OpenHandler" command="_RxnHsJsjEeS4vusb0GATEQ"/>
+  <handlers xmi:id="_RxnHtJsjEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipseE4.handler.saveCommand" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.handlers.SaveHandler" command="_RxnHs5sjEeS4vusb0GATEQ"/>
+  <handlers xmi:id="_RxnHt5sjEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipseE4.handler.aboutCommand" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.handlers.AboutHandler" command="_RxnHtpsjEeS4vusb0GATEQ"/>
+  <handlers xmi:id="_l7wXEJt2EeSfZrIB4K_EpQ" elementId="pl.mpiasecki.eclipsee4.handler.swtbot" contributionURI="bundleclass://pl.mpiasecki.eclipseE4/pl.mpiasecki.eclipseE4.handlers.SWTBotHandler" command="_jLnKsJt2EeSfZrIB4K_EpQ"/>
+  <bindingTables xmi:id="_RxmgrpsjEeS4vusb0GATEQ" elementId="bindingTable" bindingContext="_RxmgqZsjEeS4vusb0GATEQ">
+    <bindings xmi:id="_Rxmgr5sjEeS4vusb0GATEQ" elementId="keyBinding1" keySequence="M1+Q" command="_RxmgrJsjEeS4vusb0GATEQ"/>
+    <bindings xmi:id="_RxnHspsjEeS4vusb0GATEQ" elementId="keyBinding2" keySequence="M1+O" command="_RxnHsJsjEeS4vusb0GATEQ"/>
+    <bindings xmi:id="_RxnHtZsjEeS4vusb0GATEQ" elementId="keyBinding3" keySequence="M1+S" command="_RxnHs5sjEeS4vusb0GATEQ"/>
+    <bindings xmi:id="_RxnHuJsjEeS4vusb0GATEQ" elementId="keyBinding4" keySequence="M1+A" command="_RxnHtpsjEeS4vusb0GATEQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_RxmgqZsjEeS4vusb0GATEQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_RxmgqpsjEeS4vusb0GATEQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_Rxmgq5sjEeS4vusb0GATEQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_RxmgrJsjEeS4vusb0GATEQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_RxnHsJsjEeS4vusb0GATEQ" elementId="pl.mpiasecki.eclipseE4.open" commandName="openCommand"/>
+  <commands xmi:id="_RxnHs5sjEeS4vusb0GATEQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_RxnHtpsjEeS4vusb0GATEQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_jLnKsJt2EeSfZrIB4K_EpQ" elementId="pl.mpiasecki.eclipsee4.command.swtbot" commandName="SWTBot"/>
+  <addons xmi:id="_RxmgopsjEeS4vusb0GATEQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_Rxmgo5sjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_RxmgpJsjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_RxmgpZsjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_RxmgppsjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_Rxmgp5sjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_RxmgqJsjEeS4vusb0GATEQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

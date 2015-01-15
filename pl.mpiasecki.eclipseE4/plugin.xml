@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="pl.mpiasecki.eclipseE4">
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="appName"
+               value="pl.mpiasecki.eclipseE4">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/pl.mpiasecki.eclipseE4/css/default.css">
+         </property>
+      </product>
+   </extension>
+</plugin>
