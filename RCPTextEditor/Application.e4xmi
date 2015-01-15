@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_9zUQoL-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_9zUQob-REeOBcaBqRs1wzw" label="RCPTextEditor" iconURI="" width="500" height="400">
+    <children xsi:type="basic:PartStack" xmi:id="_rNWgIMEHEeOBZMqbtGjJLw" elementId="rcptexteditor.partstack.files">
+      <children xsi:type="basic:Part" xmi:id="_8oD6QL-YEeOBcaBqRs1wzw" elementId="rcptexteditor.part.editor" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.EditorPart" label="New File" closeable="true">
+        <tags>removeOnHide</tags>
+      </children>
+    </children>
+    <mainMenu xmi:id="_10gxkL-SEeOBcaBqRs1wzw" elementId="rcptexteditor.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_TSZL4L-TEeOBcaBqRs1wzw" elementId="rcptexteditor.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_q3JPoL-TEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.new" label="New" command="_Q4fvIL_9EeOl-quIARGFFQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_nImIAL-YEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.open" label="Open" command="_TsAYkL_9EeOl-quIARGFFQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_tNATwL-TEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.save" label="Save" command="_R8Y1EL_9EeOl-quIARGFFQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_uqrLoL-TEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.close" label="Close" command="_RnqNIL_7EeOl-quIARGFFQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_TgHrcMErEeOBZMqbtGjJLw" elementId="rcptexteditor.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_JRHg0MErEeOBZMqbtGjJLw" elementId="rcptexteditor.handledmenuitem.exit" label="Exit" command="_LWLv4MErEeOBZMqbtGjJLw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_WSF3ML-TEeOBcaBqRs1wzw" elementId="rcptexteditor.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_w6AJ8L-TEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.copy" label="Copy" command="_0FKRML_9EeOl-quIARGFFQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ysNucL-TEeOBcaBqRs1wzw" elementId="rcptexteditor.handledmenuitem.paste" label="Paste" command="_1eQyIL_9EeOl-quIARGFFQ"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_u4di0L_9EeOl-quIARGFFQ" elementId="rcptexteditor.handler.new" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.NewHandler" command="_Q4fvIL_9EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_6nt0sL_8EeOl-quIARGFFQ" elementId="rcptexteditor.handler.open" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.OpenHandler" command="_TsAYkL_9EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_pHYVAL_9EeOl-quIARGFFQ" elementId="rcptexteditor.handler.save" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.SaveHandler" command="_R8Y1EL_9EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_ZGpuQL_7EeOl-quIARGFFQ" elementId="rcptexteditor.handler.close" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.CloseHandler" command="_RnqNIL_7EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_9FwH8L_9EeOl-quIARGFFQ" elementId="rcptexteditor.handler.copy" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.CopyHandler" command="_0FKRML_9EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_DDIFUL_-EeOl-quIARGFFQ" elementId="rcptexteditor.handler.paste" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.PasteHandler" command="_1eQyIL_9EeOl-quIARGFFQ"/>
+  <handlers xmi:id="_OmPLYMErEeOBZMqbtGjJLw" elementId="rcptexteditor.handler.exit" contributionURI="bundleclass://RCPTextEditor/RCPTextEditor.ExitHandler" command="_LWLv4MErEeOBZMqbtGjJLw"/>
+  <commands xmi:id="_Q4fvIL_9EeOl-quIARGFFQ" elementId="rcptexteditor.command.new" commandName="New"/>
+  <commands xmi:id="_TsAYkL_9EeOl-quIARGFFQ" elementId="rcptexteditor.command.open" commandName="Open"/>
+  <commands xmi:id="_R8Y1EL_9EeOl-quIARGFFQ" elementId="rcptexteditor.command.save" commandName="Save"/>
+  <commands xmi:id="_RnqNIL_7EeOl-quIARGFFQ" elementId="rcptexteditor.command.close" commandName="Close"/>
+  <commands xmi:id="_0FKRML_9EeOl-quIARGFFQ" elementId="rcptexteditor.command.copy" commandName="Copy"/>
+  <commands xmi:id="_1eQyIL_9EeOl-quIARGFFQ" elementId="rcptexteditor.command.paste" commandName="Paste"/>
+  <commands xmi:id="_LWLv4MErEeOBZMqbtGjJLw" elementId="rcptexteditor.command.exit" commandName="Exit"/>
+  <addons xmi:id="_9zUQor-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_9zUQo7-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_9zUQpL-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_9zUQpb-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_9zUQpr-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_9zUQp7-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_9zUQqL-REeOBcaBqRs1wzw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
